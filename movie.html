@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Ticket Booking</title>
+  <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>Movie Ticket Booking</h1>
+  </div>
+
+  <div class="box">
+    <h2>Available Movies</h2>
+    <table>
+      <tr>
+        <th>Movie</th>
+        <th>Price</th>
+      </tr>
+      <tbody id="movieList"></tbody>
+    </table>
+  </div>
+
+  <div class="box">
+    <h2>Book Tickets</h2>
+
+    <div class="row">
+      <label>Movie</label>
+      <select id="movieSelect"></select>
+    </div>
+
+    <div class="row">
+      <label>Show Time</label>
+      <select id="showtimeSelect">
+        <option value="">-- Choose Time --</option>
+        <option>10:00 AM</option>
+        <option>1:00 PM</option>
+        <option>4:00 PM</option>
+        <option>7:00 PM</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <label>Email</label>
+      <input type="text" id="email" placeholder="Enter your email">
+    </div>
+
+    <div class="row">
+      <label>Tickets</label>
+      <input type="text" id="quantity" placeholder="Number of tickets">
+    </div>
+
+    <div class="row">
+      <label>Total Price</label>
+      <span class="total">₹<span id="total">0</span></span>
+    </div>
+
+    <div class="buttons">
+      <button id="bookBtn">Book Tickets</button>
+      <button id="resetBtn" class="grey">Reset</button>
+    </div>
+
+    <p id="message" class="message"></p>
+  </div>
+
+  <div class="box">
+    <h2>Your Bookings</h2>
+    <p>No bookings yet.</p>
+  </div>
+
+  <script src="movie.js"></script>
+</body>
+</html>

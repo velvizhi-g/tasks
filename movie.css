@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background: mistyrose;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.header {
+  background: red;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 0 auto 20px auto;
+  max-width: 700px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px lightgray;
+  margin: 0 auto 20px auto;
+  max-width: 700px;
+}
+
+h2 {
+  color: darkred;
+  margin-top: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.row label {
+  width: 120px;
+  font-weight: bold;
+}
+
+.row input,
+.row select {
+  width: 300px;
+  height: 36px;
+  box-sizing: border-box;
+  padding: 0 8px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  border: 1px solid aliceblue;
+  border-radius: 4px;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  color: lightblue;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  background: grey;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button:hover {
+  background: pink;
+}
+
+.grey {
+  background: gray;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: darkred;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid pink;
+}
+
+.message {
+  font-weight: bold;
+  color: darkred;
+}
